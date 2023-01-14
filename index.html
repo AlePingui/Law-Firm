@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Firm</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark navbar-expand-md pt-5">
+        <div class="container-md p-md-0">
+            <a href="./index.html" class="navbar-brand">
+                <img src="images/logo.png" alt="igstudio logo">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapseNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapseNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Attorneys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Practice Areas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light ml-auto">
+                    Contact now
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal slide" id="talkModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Let's Talk</h3>
+                    <button class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="#email" class="col-form-label col-12">
+                                Enter email:
+                            </label>
+                            <div class="col-12">
+                                <input type="email" name="email" id="email" placeholder="Enter email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="message" class="col-form-label col-12">Message:</label>
+                            <div class="col-12">
+                                <textarea name="message" id="message" rows="5" placeholder="Enter message" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-12 d-flex justify-content-end">
+                                <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button class="btn btn-primary ml-1" type="submit">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-md px-0">
+        <div class="row row-content px-3 px-md-0">
+            <div class="col-12 col-md-7 col-content" id="title-section">
+                <h1>
+                    <span>You don't have to</span><br>
+                    Fight them Alone.
+                </h1>
+                <p class="mt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto in ab sint suscipit eos voluptas, qui
+                    perferendis quidem voluptate nulla molestias quasi sapiente aspernatur corrupti sed!
+                </p>
+                <form class="form-inline mt-4 d-none d-md-flex" id="talkForm">
+                    <div class="form-group row">
+                        <label for="address" class="col-form-label col-auto pr-2">
+                            <img src="images/message-icon.png" alt="message icon">
+                        </label>
+                        <div class="col pl-0">
+                            <input type="email" id="address" name="address" placeholder="Enter your email address">
+                        </div>
+                    </div>
+                    <button class="btn btn-warning py-md-3 px-md-4 mr-1 font-weight-bold">
+                        Let's Talk
+                    </button>
+                </form>
+                <button class="btn btn-warning py-3 px-4 font-weight-bold d-block d-md-none" data-toggle="modal" data-target="#talkModal">
+                    Let's Talk
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
