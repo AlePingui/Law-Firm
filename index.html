@@ -18,7 +18,7 @@
 
     <nav class="navbar navbar-dark navbar-expand-md pt-5">
         <div class="container-md p-md-0">
-            <a href="./index.html" class="navbar-brand">
+            <a href="#home" class="navbar-brand">
                 <img src="images/logo.png" alt="igstudio logo">
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapseNav">
@@ -27,10 +27,10 @@
             <div class="collapse navbar-collapse" id="collapseNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Attorneys</a>
+                        <a href="#attorneys" class="nav-link">Attorneys</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Practice Areas</a>
@@ -84,17 +84,17 @@
     </div>
 
     <div class="container-md px-0">
-        <div class="row row-content px-3 px-md-0">
-            <div class="col-12 col-md-7 col-content" id="title-section">
-                <h1>
+        <div class="row row-content px-md-0" id="home">
+            <div class="col-12 col-md-7 col-content pt-2" id="title-section">
+                <h1 class="text-center text-md-left">
                     <span>You don't have to</span><br>
                     Fight them Alone.
                 </h1>
-                <p class="mt-4">
+                <p class="mt-4 text-center text-md-left">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto in ab sint suscipit eos voluptas, qui
                     perferendis quidem voluptate nulla molestias quasi sapiente aspernatur corrupti sed!
                 </p>
-                <form class="form-inline mt-4 d-none d-md-flex" id="talkForm">
+                <form class="form-inline mt-5 d-none d-lg-flex" id="talkForm">
                     <div class="form-group row">
                         <label for="address" class="col-form-label col-auto pr-2">
                             <img src="images/message-icon.png" alt="message icon">
@@ -107,9 +107,73 @@
                         Let's Talk
                     </button>
                 </form>
-                <button class="btn btn-warning py-3 px-4 font-weight-bold d-block d-md-none" data-toggle="modal" data-target="#talkModal">
-                    Let's Talk
-                </button>
+                <div class="d-flex d-lg-none justify-content-center mb-5">
+                    <button class="btn btn-warning py-3 px-4 font-weight-bold" data-toggle="modal" data-target="#talkModal">
+                        Let's Talk
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-content align-items-start justify-content-center justify-content-md-end d-flex">
+                <img src="images/agente.png" alt="Imagen Ilustrativa de la marca" class="img-fluid">
+            </div>
+        </div>
+        <div id="attorneys">
+            <div class="row row-content">
+                <div class="col-12 col-lg-7 col-content pr-lg-5">
+                    <h2 class="text-center text-md-left">Let's Introduce Ourself</h2>
+                </div>
+                <div class="col-12 col-lg-5 col-content border-lg pl-lg-5">
+                    <h3 class="text-center text-md-left">Criminal Lawyer</h3>
+                    <p class="text-center text-md-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis ad laborum voluptatum veritatis nam magnam?</p>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col-12 mb-3">
+                    <h2 class="text-center">
+                        Why Choose us?
+                    </h2>
+                </div>
+                
+                <div class="col-12 mt-5">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="pb-4">
+                                        <img src="images/regalo.png" alt="Regalo Imagen">
+                                    </div>
+                                    <h4 class="card-title">98% Success Rate</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem dolores provident quam, ratione ex libero deserunt inventore sint!</p>
+                                    <a href="#" class="btn btn-warning font-weight-bold text-dark px-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="pb-4">
+                                        <img src="images/regalo.png" alt="Regalo Imagen">
+                                    </div>
+                                    <h4 class="card-title">100% Success Rate</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem dolores provident quam, ratione ex libero deserunt inventore sint!</p>
+                                    <a href="#" class="btn btn-warning font-weight-bold text-dark px-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="pb-4">
+                                        <img src="images/regalo.png" alt="Regalo Imagen">
+                                    </div>
+                                    <h4 class="card-title">100% Success Rate</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem dolores provident quam, ratione ex libero deserunt inventore sint!</p>
+                                    <a href="#" class="btn btn-warning font-weight-bold text-dark px-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
