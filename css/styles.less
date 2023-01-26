@@ -16,6 +16,7 @@
 @heading2-font: 600 normal 54px inter, sans-serif;
 @heading3-font: 600 normal 32px inter, sans-serif;
 @heading4-font: 600 normal 24px inter, sans-serif;
+@heading5-font: 600 normal 18px inter, sans-serif;
 @subtitle-font: 500 normal 16px inter, sans-serif;
 @placeholder-button-font: 500 14px inter, sans-serif;
 @button-card-font: 600 14px inter, sans-serif;
@@ -35,6 +36,16 @@
 
     h4 {
         font: @heading4-font;
+    }
+
+    h5 {
+        font: @heading5-font;
+    }
+
+    p {
+        font: @subtitle-font;
+        color: @bg-subtitle;
+        line-height: 1.5;
     }
 }
 
@@ -90,9 +101,6 @@ body {
 
     p {
         max-width: 570px;
-        font: @subtitle-font;
-        color: @bg-subtitle;
-        line-height: 1.5;
     }
     @media screen and (max-width: 768px) {
         p {
@@ -168,12 +176,6 @@ body {
 }
 
 #attorneys {
-    p {
-        font: @subtitle-font;
-        color: @bg-subtitle;
-        line-height: 1.5;
-    }
-
     .border-lg {
         border-left: 1px solid @bg-light;
     }
@@ -198,5 +200,33 @@ body {
 #practiceAreas {
     img {
         object-fit: cover;
+    }
+}
+
+#aboutus {
+    .card {
+        background-color: transparent;
+        border: 1px solid @bg-secondary;
+        border-radius: 16px;
+
+        h6 {
+            font: @bg-subtitle;
+        }
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .bg-add {
+        background-color: @bg-warning;
+    }
+
+    .media {
+        height: 80px;
+
+        img {
+            max-height: 60px;
+        }
     }
 }

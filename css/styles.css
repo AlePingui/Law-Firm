@@ -12,6 +12,14 @@
 * h4 {
   font: 600 normal 24px inter, sans-serif;
 }
+* h5 {
+  font: 600 normal 18px inter, sans-serif;
+}
+* p {
+  font: 500 normal 16px inter, sans-serif;
+  color: #292929;
+  line-height: 1.5;
+}
 body {
   background-color: #111;
 }
@@ -53,9 +61,6 @@ body {
 }
 #title-section p {
   max-width: 570px;
-  font: 500 normal 16px inter, sans-serif;
-  color: #292929;
-  line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
   #title-section p {
@@ -114,11 +119,6 @@ body {
 #talkModal .modal-header .close:hover {
   color: #fff;
 }
-#attorneys p {
-  font: 500 normal 16px inter, sans-serif;
-  color: #292929;
-  line-height: 1.5;
-}
 #attorneys .border-lg {
   border-left: 1px solid #e6e6e6;
 }
@@ -137,4 +137,24 @@ body {
 }
 #practiceAreas img {
   object-fit: cover;
+}
+#aboutus .card {
+  background-color: transparent;
+  border: 1px solid #2e2e2e;
+  border-radius: 16px;
+}
+#aboutus .card h6 {
+  font: #292929;
+}
+#aboutus .card img {
+  object-fit: cover;
+}
+#aboutus .bg-add {
+  background-color: #e3b748;
+}
+#aboutus .media {
+  height: 80px;
+}
+#aboutus .media img {
+  max-height: 60px;
 }
