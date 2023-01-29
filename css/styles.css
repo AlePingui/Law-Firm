@@ -167,3 +167,20 @@ body {
 #aboutus .form-inline * {
   height: 50px;
 }
+footer {
+  background: #171717;
+}
+footer .nav a {
+  font: 600 normal 16px inter, sans-serif;
+  color: #e6e6e6;
+}
+footer .nav a:hover {
+  color: #fff;
+}
+footer a {
+  font: 500 normal 16px inter, sans-serif;
+  color: #2e2e2e;
+}
+footer a:hover {
+  color: #e6e6e6;
+}
