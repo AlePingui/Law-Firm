@@ -144,7 +144,8 @@ body {
   border-radius: 16px;
 }
 #aboutus .card h6 {
-  font: #292929;
+  font: 500 normal 16px inter, sans-serif;
+  font-size: 20px;
 }
 #aboutus .card img {
   object-fit: cover;
